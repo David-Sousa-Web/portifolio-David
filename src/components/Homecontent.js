@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import './Homecontent.css'
 
-function Sobre() {
+function Homecontent() {
   return (
     <div className='homecontent-container'>
         <video src='./videos/video-2.mp4' autoPlay loop muted/>
@@ -16,4 +16,4 @@ function Sobre() {
   )
 }
 
-export default Sobre
+export default Homecontent
