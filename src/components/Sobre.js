@@ -4,9 +4,9 @@ import './Sobre.css'
 
 function Sobre() {
   return (
-    <section className='sobre-content'>
+    <section id='Sobre' className='sobre-content'>
         <div>
-            <h1>SObre Mim</h1>
+            <h1>Sobre Mim</h1>
         </div>
     </section>
   )

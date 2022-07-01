@@ -14,27 +14,42 @@ video{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     object-fit: contain;
-    
 }
 
+
+
 .homecontent-container >h1{
-    color: #3286a2;
-    font-size: 36px;
+    color: #a213e8;
+    font-size: 30px;
     
+}
+.homecontent-container >h1:hover{
+    cursor: default;
 }
 
 .homecontent-container > p{
     color: white;
-    font-size: 100px;
-    
+    font-size: 85px;
+    transition: font-size 2s; 
 }
 
-.homecontent-container > h3{
+.homecontent-container > p:hover{
+    font-size: 100px;
+    cursor: default;
+}
+
+.homecontent-container> h3{
     color: white;
     font-size: 28px;
     font-weight: 200;
+    transition: font-size 2s;
+    
+}
+
+.homecontent-container > h3:hover{
+    font-size: 35px;
+    cursor: default;
 }
 
 .fa-2x{       
