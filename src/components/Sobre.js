@@ -7,6 +7,7 @@ function Sobre() {
     <section id='Sobre' className='sobre-content'>
         <div>
             <h1>Sobre Mim</h1>
+            <div></div>
         </div>
     </section>
   )
