@@ -13,7 +13,9 @@
   }
 
   .navbar.active{
-    background: #010614
+    background: rgba(1,6,20,0.8);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px); 
   }
   
   .navbar-container {

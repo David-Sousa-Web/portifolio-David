@@ -24,7 +24,7 @@ function Navbar() {
         <nav className={navbar ? 'navbar active' : 'navbar'}>
             <div className='navbar-container'>
                 <Link to="/" className='navbar-logo'>
-                   <img src='./images/DAVID_LOGO_BRANCO_1.png' alt=''/>
+                   <img src='./images/DAVID_LOGO_BRANCO_3.png' alt=''/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ?'fas fa-times' : 'fas fa-bars'} />             
