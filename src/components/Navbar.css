@@ -1,3 +1,13 @@
+
+  *:before,
+  *:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
   .navbar {
     /*background: #13293d;*/
     background: transparent;
@@ -52,9 +62,7 @@
     margin-right: 2rem;
   }
   
-  .nav-item {
-    height: 80px;
-  }
+  
   
   .nav-links {
     color: #fff;
@@ -62,13 +70,24 @@
     align-items: center;
     text-decoration: none;
     font-size: 14px;
-    padding: 0.5rem 1rem;
-    height: 100%;
+    padding: 7px 0rem;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .nav-links:after{
+    content: "";
+    position: absolute;
+    background-color: #a213e8;
+    height: 2px;
+    width: 0;
+    left: 5;
+    bottom: 0px;
+    transition: 0.3s;
   }
   
-  .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+  .nav-links:hover:after {
+    width: 100%;
   }
   
   .fa-bars {
@@ -86,6 +105,7 @@
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
+      padding-top: 0;
     }
   
     .nav-menu {

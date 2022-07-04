@@ -1,8 +1,8 @@
 .sobre-content{
-    padding: 4rem;  
+    padding: 4rem;
     background: rgba(1,6,16,1);
     color: white;
-    height: 2000px;
+    height: 600px;
 }
 
 .content{
@@ -24,6 +24,7 @@
     padding-top: 20px;
     gap: 20px;
     border-right: 1px solid #a213e8;
+    
     padding-right: 20px;
 }
 
@@ -47,7 +48,7 @@
 
 .perfil-container h3{
     padding-bottom: 2px;
-    font-weight: 400;
+    font-weight: 400;;
 }
 
 .cargo{
@@ -62,18 +63,72 @@
     color: rgb(194, 191, 191);
 }
 
-.contato{
+.contato {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 19px;
+    background-color: transparent;
+    border: solid #FFFFFF 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
     margin-right: 20px;
-    padding: 10px;
-}
+ }
+ 
+ .contato:hover {
+    background: transparent;
+    border: solid #9F37D6 2px;
+    color: #9F37D6;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
 
-.cv{
-    padding: 10px;
-}
+.cv {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #9f37d6;
+    text-shadow: 1px 1px 20px #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .cv:hover {
+    background: #A213E8;  
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
 
 .habilidade-content{
-    padding: 50px;
+    padding-top: 60px;
     display: flex;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
+
+.habilidade-content h1{ 
+    color: #A213E8;
+}
+
+.icons i{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+
+

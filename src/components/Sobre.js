@@ -13,8 +13,8 @@ function Sobre() {
               <h1>Sobre Mim:</h1> 
               <div className='content-text'>
                 <p>Sou Desenvolvedor Full Stack Web, atualmente estou<br/> cursando o superior
-                em Analise de desenvolvimento de<br/> sistemas e tenho o ensino medio tecnico em
-                técnico em<br/> informática - desenvolvimento de sistemas, sou apaixonado<br/> por tecnologia e
+                em Analise e desenvolvimento de<br/> sistemas e tenho o ensino medio
+                técnico em informática -<br/> desenvolvimento de sistemas, sou apaixonado<br/> por tecnologia e
                 estudo progamação desde 2017.</p>
               </div>
             </div>
@@ -29,12 +29,16 @@ function Sobre() {
         </div>
         <div className='habilidade-content'>
           <h1>Skills</h1>
-
-
-
-
-
-
+          <div className='icons fa-3x'>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-js-square"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-node"></i>
+            <i class="fa-brands fa-vuejs"></i>
+            <i class="fa-brands fa-aws"></i>
+            <i class="fa-solid fa-database"></i>
+          </div> 
         </div>
 
     </section>
