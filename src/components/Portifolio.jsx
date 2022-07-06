@@ -8,8 +8,8 @@ export const Portifolio = () => {
     <>
       <section className='content-portfolio'>
         <div className="heading">
-          <h3>MEUS PROJETOS</h3>
-          <h1>um pouco mais dos meus melhores projetos</h1>
+          <h1>MEUS PROJETOS</h1>
+          <h3>Um pouco mais dos meus melhores projetos</h3>
         </div>
         <div className='content'>
             {PortifolioData.map((val) =>{
