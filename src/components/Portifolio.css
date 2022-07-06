@@ -1,7 +1,8 @@
 .content-portfolio{
     background-color: black;
-    height: 170vh;
-    padding: 40px 0;
+    height: 200vh;
+    padding: 40px;
+    
 }
 .content-portfolio .heading{
     text-align: center;
@@ -10,9 +11,12 @@
 }
 
 .content-portfolio .content{
+   
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
+    
 
 }
 
@@ -24,8 +28,8 @@
 }
 
 .content-portfolio .box:nth-child(2){
-    grid-column-start: 1;    
-    grid-column-end: 5;
+    grid-column-start: 5;    
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end:4;
 }
@@ -48,7 +52,7 @@
     grid-row-end:8;
 }
 
-.content-portfolio .box:nth-child(5){
+.content-portfolio .box:nth-child(6){
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 8;
@@ -57,11 +61,80 @@
 
 .content-portfolio img{
     width: 100%;
-    height: 550px;
+    height: 500px;
     object-fit: cover;
+    border: 2px solid white;
 }
 
 .content-portfolio .box{
     position:relative;
     color: #fff;
+    height: 500px;
 }
+
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+}
+
+.content-portfolio .box:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
+.content-portfolio .box::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.content-portfolio .box:nth-child(4)::after,
+.content-portfolio .box:nth-child(3)::after,
+.content-portfolio .box:nth-child(2)::after,
+.content-portfolio .box:nth-child(5)::after{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(18, 22, 25, 0.925);
+}
+.content-portfolio .box:nth-child(6)::after,
+.content-portfolio .box:nth-child(1)::after{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(18, 22, 25, 0.925);
+}
+
+.content-portfolio .box:hover::after{
+    opacity: 1;
+}
+
+.content-portfolio .box .icon,
+.content-portfolio .box .text{
+    position: relative;
+    z-index: 4;
+}
+
+.content-portfolio .box p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.content-portfolio .box .icon{
+    margin-top: 25%;
+}
+
+
+
+
