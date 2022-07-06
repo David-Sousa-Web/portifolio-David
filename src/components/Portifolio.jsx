@@ -21,6 +21,12 @@ export const Portifolio = () => {
                     </div>
                     <div className='overlay'>
                       <div className='text'>
+                        <h2>{val.title}</h2>
+                        <p>{val.desc}</p>
+                      </div>
+                      <div className='icon'>
+                        <i class="fa-solid fa-expand" className='iconWork'></i>
+                        <i class="fa-solid fa-arrow-up-from-bracket" className='iconWork'></i>
                         
                       </div>
                     </div>
