@@ -1,4 +1,125 @@
 .content-contato{
     height: 600px;
-    background-color: white;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.content-contato h1{
+    text-align: center;
+    color: #a213e8;
+    font-weight: 900;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.6);
+}
+
+
+#contato-container{
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+    width: 1000px;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, .2);
+    -webkit-box-swadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
+    -moz-box-swadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
+}
+
+.contact-info{
+    background-color: rgba(1,6,18,1);
+    flex: 0 1 40%;
+    border-radius: 15px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h4{
+    margin-bottom: 8px;
+    font-size: 2rem;
+    font-weight: 500;
+    /*margin-top: 0;*/
+    margin: 0;
+    color:#a213e8;
+}
+.contact-info p{
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,7);
+    font-weight: 100;
+}
+
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px;
+    padding-bottom: 10px;
+}
+
+.icon-text .fa-solid{
+    flex: 0 0 22px;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+    color:#a213e8;
+}
+
+.icon-text span{
+    font-size: 1.0rem;
+    font-weight: 200;
+}
+
+.social-media{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon-circle{
+    flex: 0 1 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 50%;
+    transition: .3s all ease-in-out;
+}
+
+.icon-circle:hover{
+    background-color:  #a213e8;
+}
+
+.icon-circle .fa-brands{
+    font-size: 22px;
+    color: white;
+}
+
+form{
+    padding: 40px;
+}
+
+.col{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0 0.3 100%;
+    padding-right: 40px;
+}
+
+.form-group label{
+    font-size: 1.0rem;
 }

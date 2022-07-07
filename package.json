@@ -4,6 +4,7 @@
   "homepage": "./",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

@@ -6,7 +6,7 @@ import PortifolioData from './PortifolioData.js'
 export const Portifolio = () => {
   return (
     <>
-      <section className='content-portfolio'>
+      <section id='Portifolio' className='content-portfolio'>
         <div className="heading">
           <h1>MEUS PROJETOS</h1>
           <h3>Um pouco mais dos meus melhores projetos</h3>
