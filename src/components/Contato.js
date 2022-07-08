@@ -11,7 +11,7 @@ export const Contato = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_12dqucf', 'template_p5dujta', form.current, 'YOUR_PUBLIC_KEY')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -56,17 +56,38 @@ export const Contato = () => {
                   </a>
                 </div>
               </div>
-              <form form ref={form} onSubmit={sendEmail}>´
-                <div className='col'>
+              <form form ref={form} onSubmit={sendEmail}>
+                <div className='form-part'>
                   <div className='form-group'>
-                    <label>First Name</label>
+                    <label>Primeiro Nome :</label>
                     <input type='text'/>
                   </div>
                   <div className='form-group'>
-                    <label>First Name</label>
+                    <label>Sobrenome :</label>
                     <input type='text'/>
                   </div>
                 </div> 
+                <div className='form-part'>
+                  <div className='form-group'>
+                    <label>E-mail :</label>
+                    <input type='email'/>
+                  </div>
+                  <div className='form-group'>
+                    <label>Telefone :</label>
+                    <input type='tel'/>
+                  </div>
+                </div>
+                <div className='form-part'>
+                  <div className='form-group'>
+                    <label>Mensagem :</label>
+                    <textarea></textarea>
+                  </div>
+                </div>
+                <div className='col'>
+                  <div className='form-group-button'>
+                    <button className='primary'>Enviar</button>
+                  </div>
+                </div>
               </form>
             </div>
         </section>
