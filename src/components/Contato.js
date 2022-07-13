@@ -11,7 +11,7 @@ export const Contato = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_12dqucf', 'template_p5dujta', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_12dqucf', 'template_p5dujta', form.current, 'Nmv2F8_td3WcKDmL4')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -59,27 +59,27 @@ export const Contato = () => {
               <form form ref={form} onSubmit={sendEmail}>
                 <div className='form-part'>
                   <div className='form-group'>
-                    <label>Primeiro Nome :</label>
+                    <label>Primeiro Nome</label>
                     <input type='text'/>
                   </div>
                   <div className='form-group'>
-                    <label>Sobrenome :</label>
+                    <label>Sobrenome</label>
                     <input type='text'/>
                   </div>
                 </div> 
                 <div className='form-part'>
                   <div className='form-group'>
-                    <label>E-mail :</label>
+                    <label>E-mail</label>
                     <input type='email'/>
                   </div>
                   <div className='form-group'>
-                    <label>Telefone :</label>
+                    <label>Telefone</label>
                     <input type='tel'/>
                   </div>
                 </div>
                 <div className='form-part'>
                   <div className='form-group'>
-                    <label>Mensagem :</label>
+                    <label>Mensagem</label>
                     <textarea></textarea>
                   </div>
                 </div>
@@ -91,8 +91,6 @@ export const Contato = () => {
               </form>
             </div>
         </section>
-    
-
     </>
   )
 }

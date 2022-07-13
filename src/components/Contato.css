@@ -199,6 +199,7 @@ textarea{
     color: white;
     transition: all .3s ease-in-out;
     margin-bottom: 3rem;
+    resize: none;
 }
 
 textarea:focus{
