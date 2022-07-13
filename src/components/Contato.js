@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../App.css'
 import './Contato.css'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+const Result =() =>{
+  return(
+    <p className='report-message'>Sua Mensagem foi enviada com sucesso!
+    </p>
+  );
+}
 
 export const Contato = () => {
+  const [result,showResult] = useState(false)
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -17,6 +24,8 @@ export const Contato = () => {
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset();
+      showResult(true);
   };
 
   return (
@@ -59,28 +68,24 @@ export const Contato = () => {
               <form form ref={form} onSubmit={sendEmail}>
                 <div className='form-part'>
                   <div className='form-group'>
-                    <label>Primeiro Nome</label>
-                    <input type='text'/>
-                  </div>
-                  <div className='form-group'>
-                    <label>Sobrenome</label>
-                    <input type='text'/>
+                    <label>Nome Completo</label>
+                    <input type='text' name='fullName'/>
                   </div>
                 </div> 
                 <div className='form-part'>
                   <div className='form-group'>
                     <label>E-mail</label>
-                    <input type='email'/>
+                    <input type='email' name='email'/>
                   </div>
                   <div className='form-group'>
                     <label>Telefone</label>
-                    <input type='tel'/>
+                    <input type='tel' name='telefone'/>
                   </div>
                 </div>
                 <div className='form-part'>
                   <div className='form-group'>
                     <label>Mensagem</label>
-                    <textarea></textarea>
+                    <textarea name='message'></textarea>
                   </div>
                 </div>
                 <div className='col'>
@@ -88,6 +93,7 @@ export const Contato = () => {
                     <button className='primary'>Enviar</button>
                   </div>
                 </div>
+                <div className='message-send'>{result ? <Result/> : null}</div>
               </form>
             </div>
         </section>

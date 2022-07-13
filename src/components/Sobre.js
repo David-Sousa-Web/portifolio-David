@@ -6,7 +6,7 @@ function Sobre() {
   return (
     <>
       <section id='Sobre' className='sobre-content'>
-          <div className='content'>
+          <div className='content-sobre'>
               <div className='image-david'>
                 <img src='./images/Pigeon.png' alt=''/>
               </div>

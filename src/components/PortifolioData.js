@@ -3,7 +3,7 @@ const Data = [
       id: 1,
       title: "Digital Marketing",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      cover: "./images/work1.jpg",
+      cover: "./images/4602f2f5153477027a754713438bf3d0.jpg",
     },
     {
       id: 2,

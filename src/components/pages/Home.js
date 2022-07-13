@@ -4,6 +4,7 @@ import Homecontent from '../Homecontent.js'
 import Sobre from '../Sobre.js';
 import Portifolio from '../Portifolio.jsx';
 import Contato from '../Contato.js'
+import Footer from '../Footer.js'
 
 function Home (){
     return(
@@ -12,6 +13,7 @@ function Home (){
             <Sobre />
             <Portifolio />
             <Contato />
+            <Footer />
         </>
     )
 }
