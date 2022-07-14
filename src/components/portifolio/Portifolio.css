@@ -20,7 +20,7 @@
 }
 
 .content{
-    border: 1px solid #a213e8;
+    /*border: 1px solid #a213e8;*/
     height: 980px;
 }
 
@@ -96,6 +96,7 @@
     top: 25%;
     left: 0;
     margin: auto;
+    margin-top: 40px;
     opacity: 0;
 }
 
@@ -140,11 +141,14 @@
     z-index: 4;
 }
 
+
+
 .content-portfolio .box p{
     color: #fff;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 12px;
 }
+
 
 .content-portfolio .box .icon{
     margin-top: 25%;

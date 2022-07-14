@@ -1,7 +1,7 @@
 import React from 'react'
-import '../App.css'
+
 import './Homecontent.css'
-import './Sobre.js'
+import '../sobre/Sobre.js'
 
 function Homecontent() {
   return (

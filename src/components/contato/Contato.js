@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../App.css'
+
 import './Contato.css'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -51,18 +51,16 @@ export const Contato = () => {
                   <span>Barueri, SP</span>
                 </div>
                 <div className='social-media'>
-                  <a href='#' className='icon-circle'>
+                  <a href='https://www.linkedin.com/in/david-sousa-dev/' className='icon-circle'>
                     <i class="fa-brands fa-linkedin-in"></i>
                   </a>
-                  <a href='#' className='icon-circle'>
+                  <a href='https://github.com/David-Sousa-Web' className='icon-circle'>
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href='#' className='icon-circle'>
+                  <a href='https://www.instagram.com/david01sousa/' className='icon-circle'>
                     <i class="fa-brands fa-instagram"></i>
                   </a>
-                  <a href='#' className='icon-circle'>
-                    <i class="fa-brands fa-linkedin"></i>
-                  </a>
+                  
                 </div>
               </div>
               <form form ref={form} onSubmit={sendEmail}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css'
+
 import './Portifolio.css'
 import PortifolioData from './PortifolioData.js'
 

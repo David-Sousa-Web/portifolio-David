@@ -1,5 +1,4 @@
 import React from 'react'
-import '../App.css'
 import './Sobre.css'
 
 function Sobre() {
@@ -24,8 +23,8 @@ function Sobre() {
                   <h3>David Leite Sousa</h3>
                   <p className='cargo'>Desenvolvedor Web Full Stack</p>
                   <p className='button-empurrar'>david01sousa@hotmail.com</p>
-                  <button className='contato'>Entre em Contato</button>
-                  <a className='cv' href='CV_David Sousa_En.pdf' download={'CV_David Sousa_En.pdf'}>Download CV</a>
+                  <a className='contato' href="#Contato">Entre em Contato</a>
+                  <a className='cv' href='./images/CV_David Sousa_En.pdf' download={'CV_DavidSousa.pdf'}>Download CV</a>
               </div>
           </div>
           <div className='habilidade-content'>

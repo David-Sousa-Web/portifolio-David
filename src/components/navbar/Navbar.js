@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import './Navbar.css'
-import './Homecontent.js'
-import './Sobre.js';
-import './Portifolio.jsx';
-import './Contato.js'
+import '../home/Homecontent.js'
+import '../sobre/Sobre.js';
+import '../portifolio/Portifolio.jsx';
+import '../contato/Contato.js'
 
 function Navbar() {
     const [click, setClick] = useState(false);
