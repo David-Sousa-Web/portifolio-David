@@ -8,7 +8,7 @@ function Homecontent() {
     <div id='Home' className='homecontent-container'>
         <video src='./videos/Geometric - 80081.mp4' autoPlay loop muted/>   
           <h1>P O R T I F Ó L I O</h1>
-          <p>David Sousa</p>
+          <p>DAVID SOUSA</p>
           <h3>| Full Stack Developer |</h3>
           <div className='fa-2x'>
              <a href='#Sobre'><i class="fa-solid fa-chevron-down"></i></a>
