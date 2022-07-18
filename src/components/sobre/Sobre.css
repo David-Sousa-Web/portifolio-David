@@ -3,6 +3,14 @@
     background: rgba(1,6,16,1);
     color: white;
     height: 700px;
+    width: 100%;
+}
+
+.titulo-sobre{
+    color: #9F37D6;
+    margin-left: 48%;
+    margin-right: 50%;
+    margin-bottom: 20px;
 }
 
 .content-sobre{
@@ -34,6 +42,7 @@
 
 .sobre-container h1{
     color: #a213e8;
+    font-size: 20px;
 }
 
 .content-text{
@@ -133,6 +142,3 @@
     padding-right: 20px;
     padding-bottom: 10px;
 }
-
-
-
