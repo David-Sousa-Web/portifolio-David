@@ -64,3 +64,30 @@ html{
 }
 
 
+@media screen and (max-width: 790px) {
+
+    .homecontent-container >h1{
+        color: #c223d7;
+        font-size: 20px;
+        
+    }
+    
+    .homecontent-container > p{
+        color: white;
+        font-size: 50px;
+        transition: font-size 2s; 
+    }
+    .homecontent-container > p:hover{
+        font-size: 60px;
+        cursor: default;
+    }
+
+    .homecontent-container> h3{
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+        transition: font-size 2s;
+        
+    }
+
+}

@@ -2,7 +2,7 @@ const Data = [
     {
       id: 1,
       title: "Amazon Copia",
-      desc: "Uma copia da amazon para fins de estudo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       cover: "./images/4602f2f5153477027a754713438bf3d0.jpg",
     },
     {

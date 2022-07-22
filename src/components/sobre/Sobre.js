@@ -15,7 +15,7 @@ function Sobre() {
           animation.start({
             x: 0,
             transition:{
-              type: 'spring', duration:2, bounce:0.3
+              type: 'spring', duration:3, bounce:0.3
             } 
           });
       }
@@ -59,14 +59,14 @@ function Sobre() {
           <motion.div className='habilidade-content' animate={animation}>
             <h1>Skills</h1>
             <div className='icons fa-3x'>
-              <i class="fa-brands fa-html5"></i>
-              <i class="fa-brands fa-css3-alt"></i>
-              <i class="fa-brands fa-js-square"></i>
-              <i class="fa-brands fa-react"></i>
-              <i class="fa-brands fa-node"></i>
-              <i class="fa-brands fa-vuejs"></i>
-              <i class="fa-brands fa-aws"></i>
-              <i class="fa-solid fa-database"></i>
+              <i class="fa-brands fa-html5" alt="HTML5"></i>
+              <i class="fa-brands fa-css3-alt" alt="CSS3"></i>
+              <i class="fa-brands fa-js-square" alt="JavaScript"></i>
+              <i class="fa-brands fa-react" alt="React"></i>
+              <i class="fa-brands fa-node" alt="Node"></i>
+              <i class="fa-brands fa-vuejs" alt="Vue"></i>
+              <i class="fa-brands fa-aws" alt="AWS"></i>
+              <i class="fa-solid fa-database" alt="SQL"></i>
             </div> 
           </motion.div>
 
