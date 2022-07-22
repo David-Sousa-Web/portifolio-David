@@ -1,14 +1,38 @@
 import React from 'react'
 import './Sobre.css'
+import { motion } from "framer-motion"
+import{useInView} from 'react-intersection-observer';
+import{useEffect} from 'react'
+import{useAnimation} from 'framer-motion'
 
 function Sobre() {
+    const{ref,inView} = useInView();
+    const animation = useAnimation();
+
+    useEffect(() => {
+      console.log("use effect hook,inView=",inView);
+      if(inView){
+          animation.start({
+            x: 0,
+            transition:{
+              type: 'spring', duration:2, bounce:0.3
+            } 
+          });
+      }
+      if(!inView){
+          animation.start({x:'-100vw'})
+      }
+    }, [inView]);
+    
   return (
     <>
-      <section id='Sobre' className='sobre-content'>
-          <h1 className='titulo-sobre'>Sobre</h1>
-          <div className='content-sobre'>
+      <section ref={ref } id='Sobre' className='sobre-content'>
+          <motion.h1 className='titulo-sobre' animate={animation}>Sobre</motion.h1>
+          <motion.div className='content-sobre'
+              animate={animation}>
+
               <div className='image-david'>
-                <img src='./images/Pigeon.png' alt=''/>
+                <img src='./images/profile-pic (9).png' alt=''/>
               </div>
               <div className='sobre-container'>
                 <h1>Sobre Mim:</h1> 
@@ -25,10 +49,14 @@ function Sobre() {
                   <p className='cargo'>Desenvolvedor Web Full Stack</p>
                   <p className='button-empurrar'>david01sousa@hotmail.com</p>
                   <a className='contato' href="#Contato">Entre em Contato</a>
-                  <a className='cv' href='./images/CV_David Sousa_En.pdf' download={'CV_DavidSousa.pdf'}>Download CV</a>
+                  <motion.a className='cv' href='./images/CV_David Sousa_En.pdf' download={'CV_DavidSousa.pdf'} 
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}>
+                      Download CV
+                  </motion.a>
               </div>
-          </div>
-          <div className='habilidade-content'>
+          </motion.div>
+          <motion.div className='habilidade-content' animate={animation}>
             <h1>Skills</h1>
             <div className='icons fa-3x'>
               <i class="fa-brands fa-html5"></i>
@@ -40,7 +68,7 @@ function Sobre() {
               <i class="fa-brands fa-aws"></i>
               <i class="fa-solid fa-database"></i>
             </div> 
-          </div>
+          </motion.div>
 
       </section>
     </>

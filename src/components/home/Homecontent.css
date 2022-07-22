@@ -36,7 +36,7 @@ video{
 }
 
 .homecontent-container > p:hover{
-    font-size: 100px;
+    font-size: 80px;
     cursor: default;
 }
 

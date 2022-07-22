@@ -84,7 +84,7 @@
     width: 0;
     left: 5;
     bottom: 0px;
-    transition: 0.5s;
+    transition: 0.2s;
   }
   
   .nav-links:hover:after {
