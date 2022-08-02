@@ -53,9 +53,9 @@ video{
     cursor: default;
 }
 
-.fa-2x{       
+.fa-2x i{       
     color: #fff;
-    padding-top: 40px;
+    padding-top: 40px ;
     cursor: pointer;
 }
 

@@ -4,15 +4,18 @@
     height: 1100px;
     padding: 20px;
 }
+
 .Portfolio .box {
-    background-color: #000516;
+    background-color: #00071b;
     border-radius: 10px;
     position: relative;
     padding: 10px;
 }
+
 .Portfolio .box:hover {
-    background: none;
+    background: #000516;
     transform: translateY(-0);
+    cursor: pointer;
 }
   
 .Portfolio .img {
@@ -20,30 +23,36 @@
     overflow: hidden;
     transition: 0.5s;
 }
+
 .Portfolio img {
     width: 100%;
     border-radius: 10px;
     transition: 0.5s;
 }
+
 .Portfolio .box .img:hover img {
     transform: scale(1.2);
 }
+
 .Portfolio .category {
     padding-left: 20px;
     margin: 20px 0 30px 0;
     text-transform: uppercase;
 }
+
 .Portfolio .category span {
     color: #c223d7;
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
 }
+
 .Portfolio .title h2{
     color: rgba(255, 255, 255, .8);
-    font-weight: 300;
+    font-weight: 400;
     padding-left: 20px;
 }
+
 .Portfolio .arrow {
     position: absolute;
     right: 30px;
@@ -53,24 +62,30 @@
     opacity: 0;
     transition: 0.5s;
 }
+
 .Portfolio .title:hover .arrow {
     opacity: 1;
 }
+
 .Portfolio h2 {
     font-size: 18px;
     transition: 0.5s;
     padding-bottom: 30px;
 }
+
 .Portfolio .box:hover h2 {
     color: #c223d7;
 }
+
 .Portfolio .box:hover {
     color: black;
 }
+
 .container {
     max-width: 95%;
     margin: auto;
 }
+
 .text-center {
     text-align: center;
 }
@@ -79,6 +94,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .row,
 .left,
 .right {
@@ -107,16 +123,20 @@ a {
 .heading {
     margin: 50px 0 50px 0;
 }
+
 .heading h4 {
     color: #c223d7;
     letter-spacing: 2px;
     font-weight: 400;
 }
+
 .heading h1 {
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }
+
   /*------------popup--------*/
+
 body.active-modal {
     overflow-y: hidden;
 }
@@ -141,8 +161,9 @@ body.active-modal {
 }
   
 .overlay {
-    background-color: rgba(1,6,16,1);
+    background-color: rgba(1,6,16,.8);
 }
+
 .modal-content {
     position: absolute;
     top: 12%;
@@ -162,6 +183,7 @@ body.active-modal {
     padding: 0 100px 0 50px;
     color: white;
 }
+
 .modal-text span{
     color: rgba(255, 255, 255, .7);
 }
@@ -209,9 +231,11 @@ button {
     margin-right: 20px;
     color: white;
 }
+
 .modal-text button i {
     margin-left: 10px;
 }
+
 .modal-text button.close-modal {
     position: absolute;
     top: 10px;
@@ -223,6 +247,7 @@ button {
     padding: 0 0;
     font-size: 20px;
 }
+
 .modal-text button.close-modal i {
     margin: 0;
 }
@@ -232,7 +257,19 @@ button {
     background-color: #c223d7;
 }
   /*------------popup--------*/
+
 @media (max-width: 768px) {
+
+.Portfolio{
+    height: 410vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
 .modal,
 .overlay {
     overflow: scroll;
@@ -241,9 +278,11 @@ button {
 .modal .modal-img {
     margin: 50px 0 50px 0;
 }
+
 .modal-content {
     flex-direction: column;
 }
+
 .modal .right,
 .modal .left {
     padding: 0;

@@ -1,7 +1,7 @@
 const Portfolio_data = [
   {
     id: 1,
-    category: "Amazon Copia",
+    category: "Projeto Amazon",
     totalLike: "600",
     title: "saiba mais sobre a copia da amazon",
     image: "./images/4602f2f5153477027a754713438bf3d0.jpg",
@@ -12,35 +12,35 @@ const Portfolio_data = [
     category: "APPLICATION",
     totalLike: "750",
     title: "Mobile app landing design & maintain",
-    image: "./image/portfolio-02.jpg",
+    image: "./images/img-1.jpg",
   },
   {
     id: 3,
     category: "PHOTOSHOP",
     totalLike: "630",
     title: "Logo design creativity & Application ",
-    image: "./image/portfolio-03.jpg",
+    image: "./images/img-2.jpg",
   },
   {
     id: 4,
     category: "FIGMA",
     totalLike: "360",
     title: "Mobile app landing design & Services",
-    image: "./image/portfolio-04.jpg",
+    image: "./images/img-3.jpg",
   },
   {
     id: 5,
     category: "WEB DESIGN",
     totalLike: "280",
     title: "Design for tecnology & services",
-    image: "./image/portfolio-05.jpg",
+    image: "./images/img-4.jpg",
   },
   {
     id: 6,
     category: "WEB DESIGN",
     totalLike: "690",
     title: "App for tecnology & services",
-    image: "./image/portfolio-06.jpg",
+    image: "./images/img-5.jpg",
   },
 ]
 export default Portfolio_data

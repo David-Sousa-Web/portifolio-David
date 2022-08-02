@@ -51,13 +51,13 @@ export const Contato = () => {
                   <span>Barueri, SP</span>
                 </div>
                 <div className='social-media'>
-                  <a href='https://www.linkedin.com/in/david-sousa-dev/' className='icon-circle'>
+                  <a href='https://www.linkedin.com/in/david-sousa-dev/' className='icon-circle' target="_blank">
                     <i class="fa-brands fa-linkedin-in"></i>
                   </a>
-                  <a href='https://github.com/David-Sousa-Web' className='icon-circle'>
+                  <a href='https://github.com/David-Sousa-Web' className='icon-circle' target="_blank">
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href='https://www.instagram.com/david01sousa/' className='icon-circle'>
+                  <a href='https://www.instagram.com/david01sousa/' className='icon-circle' target="_blank">
                     <i class="fa-brands fa-instagram"></i>
                   </a>
                   

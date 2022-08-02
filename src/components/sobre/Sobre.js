@@ -59,14 +59,13 @@ function Sobre() {
           <motion.div className='habilidade-content' animate={animation}>
             <h1>Skills</h1>
             <div className='icons fa-3x'>
-              <i class="fa-brands fa-html5" alt="HTML5"></i>
-              <i class="fa-brands fa-css3-alt" alt="CSS3"></i>
-              <i class="fa-brands fa-js-square" alt="JavaScript"></i>
-              <i class="fa-brands fa-react" alt="React"></i>
-              <i class="fa-brands fa-node" alt="Node"></i>
-              <i class="fa-brands fa-vuejs" alt="Vue"></i>
-              <i class="fa-brands fa-aws" alt="AWS"></i>
-              <i class="fa-solid fa-database" alt="SQL"></i>
+              <i class="fa-brands fa-html5" title="HTML5"></i>
+              <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+              <i class="fa-brands fa-js-square" title="JavaScript"></i>
+              <i class="fa-brands fa-react" title="React"></i>
+              <i class="fa-brands fa-node" title="Node"></i>
+              <i class="fa-brands fa-aws" title="AWS"></i>
+              <i class="fa-solid fa-database" title="SQL"></i>
             </div> 
           </motion.div>
 
