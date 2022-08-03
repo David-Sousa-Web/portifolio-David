@@ -9,6 +9,12 @@
     align-items: center;
     gap: 60px;
 }
+
+#message-validation{
+    font-size: 40px;
+    color: rgba(255, 255, 255, .6)
+}
+
 .content-contato h1{
     text-align: center;
     color: #a213e8;
