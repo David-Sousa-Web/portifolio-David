@@ -126,6 +126,10 @@
     text-decoration: none;
  }
 
+ .cv i{
+    padding-left: 10px;
+ }
+
 .habilidade-content{
     padding-top: 100px;
     display: flex;

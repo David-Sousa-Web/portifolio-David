@@ -11,8 +11,13 @@
 }
 
 #message-validation{
-    font-size: 40px;
+    font-size: 20px;
     color: rgba(255, 255, 255, .6)
+}
+
+.center-validation{
+    margin-top: 20%;
+    margin-left: 10%;
 }
 
 .content-contato h1{

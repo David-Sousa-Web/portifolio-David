@@ -53,6 +53,7 @@ function Sobre() {
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}>
                       Download CV
+                      <i class="fa-solid fa-download"></i>
                   </motion.a>
               </div>
           </motion.div>
