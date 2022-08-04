@@ -262,8 +262,13 @@ textarea:focus{
         display: flex;
         flex-direction: column;
         width: 80%;
-        height: 900px;
+        height: 1000px;
         
+    }
+
+    .form-part{
+        display: flex;
+        flex-direction: column;
     }
     .form-group{
         display: flex;
