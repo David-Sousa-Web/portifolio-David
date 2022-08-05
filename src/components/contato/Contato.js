@@ -21,7 +21,7 @@ export const Contato = () => {
       return (
         <div className='content-contato'>
           
-          <h1>Contato</h1>
+          <h1>CONTATO</h1>
 
           <div id="contato-container">
 
@@ -81,7 +81,7 @@ export const Contato = () => {
     <>  
         <section id='Contato' className='content-contato'>
 
-            <h1>Contato</h1>
+            <h1>CONTATO</h1>
 
             <div id="contato-container">
 

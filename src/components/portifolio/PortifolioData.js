@@ -2,7 +2,7 @@ const Portfolio_data = [
   {
     id: 1,
     category: "Projeto Amazon",
-    title: "saiba mais sobre a copia da amazon",
+    title: "saiba mais sobre a réplica da amazon",
     image: "./images/4602f2f5153477027a754713438bf3d0.jpg",
     link: "https://amazon-k61ypxa1z-david-sousa-web.vercel.app/",
   },

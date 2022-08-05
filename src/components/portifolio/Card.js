@@ -65,7 +65,7 @@ const Card = (props) => {
                   LIKE THIS <i class='far fa-thumbs-up'></i>
                 </button>
 
-                <a className='btn_shadow' href={props.link}>
+                <a className='btn_shadow' href={props.link} target="_BLANK" rel="noreferrer">
                   VIEW PROJECT <i class='fas fa-chevron-right'></i>
                 </a>
 

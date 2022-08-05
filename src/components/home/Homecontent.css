@@ -20,8 +20,9 @@ video{
 
 .homecontent-container >h1{
     color: #c223d7;
+    letter-spacing: 5px;
     font-size: 30px;
-    
+    font-weight: 400;    
 }
 .homecontent-container >h1:hover{
     cursor: default;

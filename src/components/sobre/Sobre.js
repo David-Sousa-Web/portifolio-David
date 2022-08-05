@@ -28,7 +28,7 @@ function Sobre() {
     <>
       <section ref={ref } id='Sobre' className='sobre-content'>
 
-          <motion.h1 className='titulo-sobre' animate={animation}>Sobre</motion.h1>
+          <motion.h1 className='titulo-sobre' animate={animation}>SOBRE</motion.h1>
 
           <motion.div className='content-sobre'
               animate={animation}>

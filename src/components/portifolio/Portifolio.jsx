@@ -12,9 +12,7 @@ const Portfolio = () => {
 
           <div className='heading text-center '>
 
-            <h4>AQUI ESTÃO ALGUNS DOS MEUS PROJETOS</h4>
-
-            <h1>Meu Portifólio</h1>
+            <h1>MEUS PROJETOS</h1>
 
           </div>
 
