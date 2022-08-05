@@ -225,34 +225,46 @@ textarea:focus{
     margin-right: 40px;
 }
 
-.primary {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-size: 15px;
-    padding: 10px;
-    background-color: #9f37d6;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    width: 140px;
-    height: 55px;
+.primary {     
+    z-index: 1;
+    background: #a213e8;
     border: none;
- }
- 
- .primary:hover {
-    background: #A213E8;  
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-decoration: none;
- }
+    color: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
 
- .report-message{
-    color: #9f37d6;
- }
+.primary:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    top: 0;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+    background-color: rgba(1,6,18,.9);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.primary:hover {
+    color: #fff;
+}
+
+.primary:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.primary:active {
+    top: 2px;
+}
 
  @media screen and (max-width: 790px) {
     .content-contato{

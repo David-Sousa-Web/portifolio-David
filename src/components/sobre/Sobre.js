@@ -66,7 +66,7 @@ function Sobre() {
 
                   <a className='contato' href="#Contato">Entre em Contato</a>
 
-                  <motion.a className='cv' href='./images/CV_David Sousa_En.pdf' download={'CV_DavidSousa.pdf'} 
+                  <motion.a className='cv' href='./images/Curriculo_David_Sousa.pdf' download={'CV_DavidSousa.pdf'} 
 
                       whileHover={{ scale: 1.1 }}
 
