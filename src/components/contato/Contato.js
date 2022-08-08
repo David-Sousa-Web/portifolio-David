@@ -1,22 +1,11 @@
 import React from 'react'
-
 import './Contato.css'
-//import { useRef } from 'react';
-//import emailjs from '@emailjs/browser';
 import { useForm, ValidationError } from '@formspree/react';
 
-/*const Result =() =>{
-  return(
-    <p className='report-message'>Sua Mensagem foi enviada com sucesso!
-    </p>
-  );
-}*/
-
 export const Contato = () => {
-  /*const [result,showResult] = useState(false)
-  const form = useRef()*/
 
   const [state, handleSubmit] = useForm("mdojnlgj");
+
   if (state.succeeded) {
       return (
         <div className='content-contato'>
@@ -134,12 +123,13 @@ export const Contato = () => {
 
                     <label>Nome Completo</label>
 
-                    <input id='nome' type='text' name='Nome Completo' required=""/>
+                    <input id='nome' type='text' name='Name' required="true"/>
 
-                    <ValidationError 
-                      prefix="Nome" 
-                      field="Nome Completo"
+                    <ValidationError
+                      prefix='Nome'
+                      field='name'
                       errors={state.errors}
+                      
                     />
 
                   </div>
@@ -152,7 +142,7 @@ export const Contato = () => {
 
                     <label>E-mail</label>
 
-                    <input id='email' type='email' name='email' required=""/>
+                    <input id='email' type='email' name='email' required="true"/>
 
                     <ValidationError 
                       prefix="Email" 
@@ -166,11 +156,11 @@ export const Contato = () => {
                     
                     <label>Telefone</label>
 
-                    <input id='telefone' type='tel' name='telefone' required=""/>
+                    <input id='telefone' type='tel' name='telefone' required="true"/>
 
                     <ValidationError 
-                      prefix="Telefone" 
-                      field="telefone"
+                      prefix='Telefone'
+                      field ="phone"
                       errors={state.errors}
                     />
 
