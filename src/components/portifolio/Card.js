@@ -55,15 +55,11 @@ const Card = (props) => {
 
               <h1>{props.title}</h1>
 
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <p>{props.text} <br/>
+              {props.text2}
+              </p>
 
               <div className='button f_flex mtop'>
-
-                <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
-                </button>
 
                 <a className='btn_shadow' href={props.link} target="_BLANK" rel="noreferrer">
                   VIEW PROJECT <i class='fas fa-chevron-right'></i>

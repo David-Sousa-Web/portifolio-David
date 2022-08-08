@@ -1,7 +1,7 @@
 .Portfolio {
     position: relative;
     background-color: #010614;
-    height: 1100px;
+    height: 80vw;
     padding: 20px;
 }
 
@@ -22,16 +22,18 @@
     height: 220px;
     overflow: hidden;
     transition: 0.5s;
+    border-radius: 6px;
 }
 
 .Portfolio img {
     width: 100%;
-    border-radius: 10px;
     transition: 0.5s;
+    border-radius: 6px;
 }
 
 .Portfolio .box .img:hover img {
     transform: scale(1.2);
+
 }
 
 .Portfolio .category {
@@ -264,11 +266,10 @@ button {
     background-color: #c223d7;
 }
   /*------------popup--------*/
-
 @media (max-width: 768px) {
 
 .Portfolio{
-    height: 350vh;
+    height: 680vw;
 }
 
 .grid {
