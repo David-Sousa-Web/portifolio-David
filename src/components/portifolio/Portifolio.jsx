@@ -6,7 +6,7 @@ import Portfolio_data from "./PortifolioData"
 const Portfolio = () => {
   return (
     <>
-      <section className='Portfolio top' id='portfolio'>
+      <section className='Portfolio top' id='Portfolio'>
 
         <div className='container'>
 
