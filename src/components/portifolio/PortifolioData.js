@@ -7,6 +7,7 @@ const Portfolio_data = [
     Text: "Projeto Criado a fins de estudo usando Next, React, Redux",
     Text2: "Outras ferramentas como Stripe, Firebase, next auth, google login",
     link: "https://amazon-k61ypxa1z-david-sousa-web.vercel.app/",
+    git: "https://github.com/David-Sousa-Web/AmazonCopia"
   },
   {
     id: 2,

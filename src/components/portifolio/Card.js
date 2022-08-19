@@ -56,7 +56,7 @@ const Card = (props) => {
               <h1>{props.title}</h1>
 
               <p>{props.text} <br/>
-              {props.text2}
+                {props.text2}
               </p>
 
               <div className='button f_flex mtop'>
@@ -65,7 +65,7 @@ const Card = (props) => {
                   VIEW PROJECT <i class='fas fa-chevron-right'></i>
                 </a>
 
-                <a className='btn_shadow' href="#" target="_BLANK" rel="noreferrer">
+                <a className='btn_shadow' href={props.git} target="_BLANK" rel="noreferrer">
                   GIT HUB <i class="fa-brands fa-github"></i>
                 </a>
 

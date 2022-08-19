@@ -20,7 +20,7 @@ const Portfolio = () => {
 
             {Portfolio_data.map((value, index) => {
               return <Card key={index} image={value.image} category={value.category} 
-              totalLike={value.totalLike} title={value.title} text={value.Text} text2={value.Text2} like={value.like} link={value.link} />
+              totalLike={value.totalLike} title={value.title} text={value.Text} text2={value.Text2} link={value.link} git={value.git} />
             })}
 
           </div>
