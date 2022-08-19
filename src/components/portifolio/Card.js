@@ -65,6 +65,10 @@ const Card = (props) => {
                   VIEW PROJECT <i class='fas fa-chevron-right'></i>
                 </a>
 
+                <a className='btn_shadow' href="#" target="_BLANK" rel="noreferrer">
+                  GIT HUB <i class="fa-brands fa-github"></i>
+                </a>
+
               </div>
 
               <button className='close-modal' onClick={toggleModal}>
