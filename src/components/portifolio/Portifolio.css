@@ -19,6 +19,7 @@
 }
   
 .Portfolio .img {
+
     height: 220px;
     overflow: hidden;
     transition: 0.5s;
@@ -27,6 +28,7 @@
 
 .Portfolio img {
     width: 100%;
+    height: 220px;
     transition: 0.5s;
     border-radius: 6px;
 }
@@ -186,7 +188,7 @@ body.active-modal {
 .modal-img img{
     height: 350px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
   
 .modal-text {

@@ -11,12 +11,13 @@ const Portfolio_data = [
   },
   {
     id: 2,
-    category: "Em Construção",
-    title: "Projeto em andamento",
-    Text:"Projeto em construção para mais detalhes sobre o andamento me siga no LINKEDIN",
-    Text2:"ou em uma das minhas redes sociais!",
-    image: "./images/em.png",
-    link:""
+    category: "Projeto IgniteLab 2.0",
+    title: "projeto feito com auxilio da rocketseat",
+    Text:"Projeto criado com a framework VITE e com a biblioteca React",
+    Text2:"Ferramentas utilizadas: GraphCMS, TailwindCSS e algumas bibliotecas do react",
+    image: "./images/Screenshot_1.jpg",
+    link:"https://igvideolab.vercel.app/",
+    git: "https://github.com/David-Sousa-Web/IgniteLab-2.0"
   },
   {
     id: 3,
