@@ -16,7 +16,6 @@ const Card = (props) => {
   return (
     <>
       <div className='box'>
-
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
@@ -26,13 +25,11 @@ const Card = (props) => {
         </div>
 
         <div className='title'>
-
           <h2 onClick={toggleModal}>{props.title}</h2>
 
           <a href='#popup' className='arrow' onClick={toggleModal}>
             <i class='fas fa-arrow-right'></i>
           </a>
-
         </div>
 
       </div>
